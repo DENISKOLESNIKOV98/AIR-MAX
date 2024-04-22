@@ -41,3 +41,44 @@ a {
     padding: 0px 5px;
     margin: 0 auto;
 }
+
+.conent {}
+
+.header {
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+
+}
+
+.logo {
+    display: block;
+
+}
+
+.logo__img {
+    height: 53px;
+    width: 123px;
+
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 123px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.btn {
+    background-color: #12b97d;
+    transition: alls 0.4s;
+}
